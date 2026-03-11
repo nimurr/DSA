@@ -79,20 +79,27 @@ int main()
     //     cout << "Age 1 is younger than age 2" << endl;
     // }
 
-    int mark1 = 70;
-    int mark2 = 90;
+    // int mark1 = 70;
+    // int mark2 = 90;
 
-    if (mark1 > mark2)
+    // if (mark1 > mark2)
+    // {
+    //     cout << "Mark 1 is higher than mark 2" << endl;
+    // }
+    // else if (mark1 == mark2)
+    // {
+    //     cout << "Mark 1 is equal to mark 2" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Mark 1 is lower than mark 2" << endl;
+    // }
+
+    //===================== Loops ======================
+
+    for (int i = 0; i < 10; i++)
     {
-        cout << "Mark 1 is higher than mark 2" << endl;
-    }
-    else if (mark1 == mark2)
-    {
-        cout << "Mark 1 is equal to mark 2" << endl;
-    }
-    else
-    {
-        cout << "Mark 1 is lower than mark 2" << endl;
+        cout << i << endl;
     }
 
     return 0;
